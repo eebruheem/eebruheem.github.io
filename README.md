@@ -5,7 +5,7 @@
 </head>
 <body>
 <h1 id="welcome">HTML CSS JS</h1>
-<p>Welcome to HTML-CSS-JS.com</p>
+<pstyle="color:green">IBRAHIM KAMARA</p>
 <p>Online HTML, CSS and JavaScript editor 
 with instant preview.</p>
 </body>
