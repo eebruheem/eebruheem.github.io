@@ -9,4 +9,5 @@
 <p>Online HTML, CSS and JavaScript editor 
 with instant preview.</p>
 </body>
+background-color:#CE5937;
 </html>
