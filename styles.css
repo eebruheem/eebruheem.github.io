@@ -1,11 +1,11 @@
 body{
 	font-family: "VT323";
+	font-size: 1.3rem;
 	color:#6dd6e8;
 	background-image: url('img/paperbg.jpg');
-	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	font-size: 1.3rem;
+	
 }
 
 a:link, a:visited, h1 {
