@@ -2,7 +2,7 @@ body{
 	font-family: "VT323";
 	font-size: 1.3rem;
 	color:#6dd6e8;
-	background-color: white;
+	background: white;
 }
 
 a:link, a:visited, h1 {
