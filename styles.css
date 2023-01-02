@@ -1,73 +1,89 @@
-.flex-container {
+.column {
   display: flex;
   flex-flow: row wrap;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
 }
 
-.avi {
-  background-color: red;
-  width: 100px;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
+.wrapper {
+  display: flex;  
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center; 
 }
 
-.byline {
-  background-color: blue;
-  width: 100px;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
+.wrapper > * {
+  padding: 10px;
+  margin: 2px;
+  flex: 1 100%;
 }
 
-.work {
-  background-color: yellow;
-  width: 100px;
-  margin: 10px;
+.sidebar {
+  display: flex;  
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center; 
+}
+
+.sidebar > * {
+  padding: 10px;
+  margin: 2px;
+  flex: 1 100%;
+}
+
+.header {
+  background: tomato;
+}
+
+.footer {
+  background: lightgreen;
+}
+
+.about {
   text-align: center;
-  line-height: 75px;
-  font-size: 30px;
+  background: deepskyblue;
+}
+
+.aside-1 {
+  background: gold;
+}
+
+.aside-2 {
+  background: hotpink;
+}
+
+.aside-3 {
+  background: orange;
+}
+
+.aside-4 {
+  background: red;
+}
+
+@media all and (max-width: 600px) {
+  .aside { flex: 1 0 0; }
+  .aside-1 { order: 3; } 
+  .aside-2 { order: 4; }
+  .aside-3 { order: 5; } 
+  .aside-4 { order: 6; }
+  .footer  { order: 3; }
+  .sidebar {order: 7; }
+}
+
+@media all and (min-width: 600px) {
+  .top { flex: 1 auto; }
+  .aside { flex: 1 0 0; }
+  .header { flex: 3 0px; }
+  .aside-1 { order: 3; } 
+  .aside-2 { order: 4; }
+  .aside-3 { order: 5; } 
+  .aside-4 { order: 6; }
+  .footer  { order: 2; }
 }
 
 body {
   padding: 2em; 
 }
 
-a:link, a:visited, h1 {
-color: #6dd6e8;
-}
-
-a:hover, a:active {
-color: #e8b96d;
-}
-
-ul {
-  list-style-type: none;
-margin:20px;
-padding:10px;
-line-height:1.4;
-}
-
-main {
-max-width: 1024px;
-}
-
-.box {
-max-width:800px;
-background: black;
-margin: 20px;
-border: 3px solid #008ECC;
-padding-top: 5px;
-padding-right: 0px;
-padding-bottom: 5px;
-padding-left: 20px;
-text-align: left;
-}
-
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 2.5rem;
-}
