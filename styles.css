@@ -3,15 +3,6 @@
   flex-flow: row wrap;
 }
 
-.flex-container > div {
-  background-color: brown;
-  width: 100px;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
-}
-
 .avi {
   background-color: red;
   width: 100px;
