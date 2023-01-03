@@ -42,30 +42,6 @@ h6 {
   flex: 1 100%;
 }
 
-.header {
-}
-
-.bio {
-}
-
-.sep {
-}
-
-.about {
-}
-
-.color {
-}
-
-.vfx {
-}
-
-.mograph {
-}
-
-.writing {
-}
-
 @media all and (max-width: 600px) {
   .aside { flex: 1 0 0; }
   .color { order: 3; } 
