@@ -12,6 +12,9 @@ h6 {
   display: flex;
   flex-flow: row wrap;
   position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
 }
 
 .wrapper {
@@ -31,9 +34,6 @@ h6 {
   flex-flow: row wrap;
   font-weight: bold;
   text-align: center;
-   top: 50%;
-  left:50%;
-  transform: translate(-50%, -50%);
 }
 
 .sidebar > * {
