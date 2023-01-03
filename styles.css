@@ -4,7 +4,8 @@ body {
 
 h6 {
   background-image: linear-gradient(to right, #76b3a8 , #8876b3);
-  padding: 1px;
+  padding: 3px;
+  boder-bottom: 1px solid #2F3130;
   text-align: left; 
 }
 
