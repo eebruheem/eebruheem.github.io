@@ -49,8 +49,8 @@ h6 {
   .vfx { order: 4; }
   .mograph { order: 5; } 
   .writing { order: 6; }
-  .footer  { order: 3; }
-  .sidebar {order: 7; }
+  .about  { order: 7; }
+  .bio {order: 8; }
 }
 
 @media all and (min-width: 600px) {
