@@ -45,6 +45,7 @@ h6 {
 
 @media all and (max-width: 600px) {
   .aside { flex: 1 0 0; }
+  .column { flex-flow: row wrap; }
   .color { order: 3; } 
   .vfx { order: 4; }
   .mograph { order: 5; } 
