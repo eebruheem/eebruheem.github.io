@@ -1,3 +1,12 @@
+body {
+  padding: 2em; 
+}
+
+h6 {
+  background-image: linear-gradient(to right, red , yellow);
+  padding: 1px;
+}
+
 .column {
   display: flex;
   flex-flow: row wrap;
@@ -81,9 +90,5 @@
   .aside-3 { order: 5; } 
   .aside-4 { order: 6; }
   .footer  { order: 2; }
-}
-
-body {
-  padding: 2em; 
 }
 
