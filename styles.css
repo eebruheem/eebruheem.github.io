@@ -50,7 +50,6 @@ h6 {
   .writing { order: 6; }
   .footer  { order: 3; }
   .sidebar {order: 7; }
-  .bio { order: 8; }
 }
 
 @media all and (min-width: 600px) {
