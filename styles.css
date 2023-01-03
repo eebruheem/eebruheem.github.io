@@ -46,7 +46,10 @@ h6 {
   background: tomato;
 }
 
-.footer {
+.bio {
+}
+
+.sep {
   background: lightgreen;
 }
 
@@ -81,10 +84,10 @@ h6 {
   .top { flex: 1 auto; }
   .aside { flex: 1 0 0; }
   .header { flex: 3 0px; }
+  .sep  { order: 2; }
   .color { order: 3; } 
   .vfx { order: 4; }
   .mograph { order: 5; } 
   .writing { order: 6; }
-  .footer  { order: 2; }
 }
 
