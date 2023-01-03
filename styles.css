@@ -31,7 +31,7 @@ h6 {
 
 .sidebar {
   display: flex;  
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   font-weight: bold;
   text-align: center;
 }
