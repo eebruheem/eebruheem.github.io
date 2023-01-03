@@ -5,6 +5,7 @@ body {
 h6 {
   background-image: linear-gradient(to right, red , yellow);
   padding: 1px;
+  text-align: left; 
 }
 
 .column {
@@ -20,11 +21,10 @@ h6 {
   display: flex;  
   flex-flow: row wrap;
   font-weight: bold;
-  text-align: center; 
+  text-align: left; 
 }
 
 .wrapper > * {
-  padding: 10px;
   margin: 2px;
   flex: 1 100%;
 }
@@ -55,28 +55,24 @@ h6 {
   background: deepskyblue;
 }
 
-.aside-1 {
-  background: gold;
+.color {
 }
 
-.aside-2 {
-  background: hotpink;
+.vfx {
 }
 
-.aside-3 {
-  background: orange;
+.mograph {
 }
 
-.aside-4 {
-  background: red;
+.writing {
 }
 
 @media all and (max-width: 600px) {
   .aside { flex: 1 0 0; }
-  .aside-1 { order: 3; } 
-  .aside-2 { order: 4; }
-  .aside-3 { order: 5; } 
-  .aside-4 { order: 6; }
+  .color { order: 3; } 
+  .vfx { order: 4; }
+  .mograph { order: 5; } 
+  .writing { order: 6; }
   .footer  { order: 3; }
   .sidebar {order: 7; }
 }
@@ -85,10 +81,10 @@ h6 {
   .top { flex: 1 auto; }
   .aside { flex: 1 0 0; }
   .header { flex: 3 0px; }
-  .aside-1 { order: 3; } 
-  .aside-2 { order: 4; }
-  .aside-3 { order: 5; } 
-  .aside-4 { order: 6; }
+  .color { order: 3; } 
+  .vfx { order: 4; }
+  .mograph { order: 5; } 
+  .writing { order: 6; }
   .footer  { order: 2; }
 }
 
