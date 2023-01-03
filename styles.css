@@ -12,9 +12,6 @@ h6 {
   display: flex;
   flex-flow: row wrap;
   position: absolute;
-  top: 50%;
-  left:50%;
-  transform: translate(-50%, -50%);
 }
 
 .wrapper {
@@ -33,7 +30,10 @@ h6 {
   display: flex;  
   flex-flow: row wrap;
   font-weight: bold;
-  text-align: center; 
+  text-align: center;
+   top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
 }
 
 .sidebar > * {
@@ -50,6 +50,7 @@ h6 {
   .writing { order: 6; }
   .footer  { order: 3; }
   .sidebar {order: 7; }
+  .bio { order: 8; }
 }
 
 @media all and (min-width: 600px) {
