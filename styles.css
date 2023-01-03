@@ -31,7 +31,7 @@ h6 {
 
 .sidebar {
   display: flex;  
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   font-weight: bold;
   text-align: center; 
 }
@@ -43,19 +43,15 @@ h6 {
 }
 
 .header {
-  background: tomato;
 }
 
 .bio {
 }
 
 .sep {
-  background: lightgreen;
 }
 
 .about {
-  text-align: center;
-  background: deepskyblue;
 }
 
 .color {
